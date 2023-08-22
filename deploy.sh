@@ -20,7 +20,7 @@ git commit -m 'deploy' # commit 訊息
 # 部署到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 # 部署到 https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:laiiting/StockEchart.git master
+ git push -f -u git@github.com:laiiting/StockEchart.git master
 # 除此之外，也可以改走 HTTPS 模式
 # git push -f https://github.com/hsiangfeng/example-vite-react master:gh-pages
 
